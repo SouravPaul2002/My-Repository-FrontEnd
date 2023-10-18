@@ -54,6 +54,10 @@ button:hover {
     transition: 0.2s ease-out;
 }
 
+button {
+    -webkit-tap-highlight-color: transparent;
+}
+
 .operator {
     background-color: orange;
     transition: 0.2s ease-out;
