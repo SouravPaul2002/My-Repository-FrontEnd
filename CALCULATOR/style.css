@@ -1,19 +1,22 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
-h1{
+
+h1 {
     margin: 6px 0;
     text-transform: capitalize;
     text-align: center;
 }
-.container{
+
+.container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -22,9 +25,10 @@ h1{
     background-color: black;
     width: fit-content;
     padding: 6px;
-    
+
 }
-input{
+
+input {
     width: 215px;
     height: 40px;
     border: 2px solid black;
@@ -32,39 +36,46 @@ input{
     margin: 6px 0;
     font-size: 1.6rem;
 }
-button{
+
+button {
     width: 50px;
     background-color: rgb(68, 67, 67);
     color: white;
     border: 2px solid black;
     border-radius: 50%;
-    margin: 3px ;
+    margin: 3px;
     padding: 10px 14px;
     font-size: 1.5rem;
     cursor: pointer;
 }
-button:hover{
+
+button:hover {
     background-color: rgb(125, 125, 125);
     transition: 0.2s ease-out;
 }
-.operator{
+
+.operator {
     background-color: orange;
     transition: 0.2s ease-out;
 }
-.operator:hover{
+
+.operator:hover {
     background-color: white;
     color: orange;
 }
-.top-row{
+
+.top-row {
     background-color: gray;
     transition: 0.2s ease-out;
     color: black;
 }
-.top-row:hover{
+
+.top-row:hover {
     background-color: rgb(68, 67, 67);
     color: white;
 }
-.special{
+
+.special {
     border-radius: 20px;
-    padding: 10px 53.1px ;
+    padding: 10px 53.1px;
 }
